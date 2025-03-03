@@ -1,10 +1,10 @@
 # ecal_2ros
 
-this node converts eCAL data to ROS.
+Node to convert eCAL data to ROS.
 
-it can be done
+To be used
 1. live
-2. from hdf to .bag
+2. convert .hdf5 to .bag
 
 ## How to build
 ```
