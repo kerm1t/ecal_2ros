@@ -17,13 +17,13 @@ make -B
 
 ## How to run
 
-- start 2 terminals
-- terminal 1
+- start up terminals
+- start ros broker
 ```
 roscore // start ros broker
 rosparam set use_sim_time false // optional
 ```
-- terminal 2
+- start ecal2ros node
 ```
 cd build
 ./devel/lib/testnode/testnode
