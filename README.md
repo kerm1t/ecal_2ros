@@ -17,7 +17,6 @@ make -B
 
 ## How to run
 
-- start up terminals
 - start ros broker
 ```
 roscore // start ros broker
