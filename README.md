@@ -17,7 +17,7 @@ make -B
 
 ## How to run
 
-- start ros broker
+- start ROS1
 ```
 roscore // start ros broker
 rosparam set use_sim_time false // optional
