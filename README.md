@@ -11,6 +11,7 @@ To be used
 git clone git@github.com:kerm1t/ecal_2ros.git
 mkdir build
 cd build
+source /opt/ros/noetic/setup.bash // catkin to find packages
 cmake ..
 make -B
 ```
@@ -19,9 +20,9 @@ make -B
 
 - start ROS1
 ```
-source /opt/ros/noetic/setup.bash
-roscore // start ros broker
-rosparam set use_sim_time false // optional
+source /opt/ros/noetic/setup.bash // to find roscore 
+roscore                           // start ros broker
+rosparam set use_sim_time false   // optional
 ```
 - start ecal2ros node
 ```
