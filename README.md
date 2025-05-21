@@ -19,6 +19,7 @@ make -B
 
 - start ROS1
 ```
+source /opt/ros/noetic/setup.bash
 roscore // start ros broker
 rosparam set use_sim_time false // optional
 ```
